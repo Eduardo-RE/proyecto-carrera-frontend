@@ -1,0 +1,24 @@
+.navbar-container {
+  background-color: #4b3160;
+  height: 100%;
+  width: 219px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+}
+
+.navbar-options {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-options:hover {
+  background-color: #8a3ab0;
+}
+
+.options {
+  margin: 5px 10px 0px 10px;
+}
