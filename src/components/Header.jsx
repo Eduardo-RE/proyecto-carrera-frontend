@@ -1,10 +1,9 @@
-import React from "react";
-import "./Header.css";
+import React from 'react'
+import "./Header.css"
 
 const Header = () => {
   return (
-    <>
-      <div className="header-container">
+    <div className="header-container">
         <button className="logout-button">
           <div className="button-icon">
             <svg
@@ -27,8 +26,7 @@ const Header = () => {
           Cerrar Sesion
         </button>
       </div>
-    </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

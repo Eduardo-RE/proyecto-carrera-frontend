@@ -2,10 +2,17 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
+const height = window.innerHeight;
+
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-container">
+      <div
+        className="navbar-container"
+        style={{
+          height: height,
+        }}
+      >
         <Link to="/user">
           <div className="navbar-options">
             <div className="options">

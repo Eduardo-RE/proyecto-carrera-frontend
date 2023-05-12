@@ -1,12 +1,20 @@
 import React from "react";
-import Header from "../components/Header";
 import Navbar from "../components/Navbar";
-
-const Home = () => {
+import Header from "../components/Header";
+import '../Home.css'
+const Home = ({children}) => {
   return (
     <>
-      <Header />
-      <Navbar />
+      <div className="wrapper">
+        <div className="one">
+          
+          <Header />
+        </div>
+        <div className="two">
+          <Navbar />
+        </div>
+        <div className="three">{children}</div>
+      </div>
     </>
   );
 };

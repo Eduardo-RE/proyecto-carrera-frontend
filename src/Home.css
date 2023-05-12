@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main main main"
+    "menu main main main main main ";
+}
+
+.wrapper > div {
+  text-align: center;
+  background-color: #c7c8ca;
+  font-size: 18px;
+}
+
+.one {
+  grid-area: header;
+}
+.two {
+  grid-area: menu;
+}
+.three {
+  grid-area: main;
+}
+
+
+
+
+
+
+
