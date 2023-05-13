@@ -22,9 +22,94 @@
   grid-area: main;
 }
 
+input {
+  font-size: 24px;
+  border: 1px solid #c7c8ca;
+  height: 42px;
+  width: 284px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+select {
+  font-size: 24px;
+  height: 62px;
+  width: 356px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
 
+.inputsgrp1 {
+  padding-top: 25px;
+  display: grid;
+}
+.inputsgrp2 {
+  padding-top: 25px;
+  display: grid;
+  align-self: flex-start;
+  row-gap: 50px;
+}
+.block {
+  text-align: left;
+  margin: 25px 50px 55px 0px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 80%;
+}
+.blockformularios {
+  text-align: center;
+  margin: 25px 50px 55px 0px;
+  background-color: white;
+  display: grid;
+  justify-content: space-around;
+  height: 80%;
+}
 
+.btn {
+  background-color: #d9d9d9;
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 228px;
+  height: 49px;
+  margin-right: 80px;
+  border-radius: 4px;
+  font-size: 16px;
+  align-items: center;
+}
 
+.fa {
+  color: white;
+}
 
-
-
+.btn:hover {
+  background-color: rgb(196, 194, 194);
+}
+.cuadroselect {
+  padding-top: 50px;
+}
+.formularioscuadro2 {
+  display: inline-flex;
+  column-gap: 450px;
+}
+.formsinputs {
+  padding: 45px;
+  display: grid;
+}
+.buttonsforms {
+  display: grid;
+  align-self: flex-start;
+  row-gap: 30px;
+}
+.btnforms {
+  color: rgb(0, 0, 0);
+  border: none;
+  width: 81px;
+  height: 78px;
+  margin-right: 80px;
+  border-radius: 4px;
+  font-size: 16px;
+  align-items: center;
+}
