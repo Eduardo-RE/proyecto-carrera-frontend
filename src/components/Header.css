@@ -20,6 +20,10 @@
     cursor: pointer;
     margin-left: 88%;
   }
+
+  .logout-button:hover {
+    background-color: #422857;
+  }
   
   .button-icon {
     margin: 5px 10px 0px 10px;

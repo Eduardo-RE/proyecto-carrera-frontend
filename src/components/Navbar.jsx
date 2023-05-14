@@ -1,10 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const height = window.innerHeight;
 
 const Navbar = () => {
+  const location = useLocation();
+  const { pathname } = location;
+
   return (
     <>
       <div
@@ -13,7 +16,10 @@ const Navbar = () => {
           height: height,
         }}
       >
-        <Link to="/user">
+        <Link
+          to="/user"
+          className={`${pathname.includes(`/user`) ? "linkSelected" : ""}`}
+        >
           <div className="navbar-options">
             <div className="options">
               <svg
@@ -38,7 +44,12 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link to="/registerforms">
+        <Link
+          to="/registerforms"
+          className={`${
+            pathname.includes(`/registerforms`) ? "linkSelected" : ""
+          }`}
+        >
           <div className="navbar-options">
             <div className="options">
               <svg
@@ -62,7 +73,12 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link to="/formularios">
+        <Link
+          to="/formularios"
+          className={`${
+            pathname.includes(`/formularios`) ? "linkSelected" : ""
+          }`}
+        >
           <div className="navbar-options">
             <div className="options">
               <svg
@@ -87,7 +103,10 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link to="/reportes">
+        <Link
+          to="/reportes"
+          className={`${pathname.includes(`/reportes`) ? "linkSelected" : ""}`}
+        >
           <div className="navbar-options">
             <div className="options">
               <svg

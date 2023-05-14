@@ -44,10 +44,7 @@ const Formularios = ({ children }) => {
                 </div>
               </div>
               <div className="buttonsforms">
-                <button
-                  style={{ backgroundColor: "#00ABFB" }}
-                  className="btnforms"
-                >
+                <button className="btnFormsBlue">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="icon icon-tabler icon-tabler-pencil"
@@ -65,10 +62,7 @@ const Formularios = ({ children }) => {
                     <path d="M13.5 6.5l4 4" />
                   </svg>
                 </button>
-                <button
-                  style={{ backgroundColor: "#FF9300" }}
-                  className="btnforms"
-                >
+                <button className="btnFormsOrange">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="icon icon-tabler icon-tabler-edit"
@@ -87,7 +81,7 @@ const Formularios = ({ children }) => {
                     <path d="M16 5l3 3" />
                   </svg>
                 </button>
-                <button style={{ backgroundColor: "red" }} className="btnforms">
+                <button className="btnFormsRed">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="icon icon-tabler icon-tabler-trash"
