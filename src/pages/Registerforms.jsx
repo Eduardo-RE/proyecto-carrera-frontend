@@ -22,25 +22,41 @@ const Registerforms = ({ children }) => {
           {children}
           <div className="block">
             <div className="inputsgrp1">
-              <input type="Text" placeholder="Nombre" />
-              <input type="Text" placeholder="Carrera" />
-              <input type="number" placeholder="Semestre" min={1} max={16} />
-              <input type="tel" placeholder="Telefono" />
+              <input className="input" type="Text" placeholder="Nombre" />
+              <input className="input" type="Text" placeholder="Carrera" />
               <input
+                className="input"
+                type="number"
+                placeholder="Semestre"
+                min={1}
+                max={16}
+              />
+              <input className="input" type="tel" placeholder="Telefono" />
+              <input
+                className="input"
                 style={{ width: 530 }}
                 type="Text"
                 placeholder="Domicilio"
               />
               <input
+                className="input"
                 style={{ height: 67, width: 530 }}
                 type="Text"
                 placeholder="Clave de la carrera a la que desea el cambio"
               />
-              <input type="email" placeholder="Correo Electronico" />
+              <input
+                className="input"
+                type="email"
+                placeholder="Correo Electronico"
+              />
             </div>
             <div className="inputsgrp2">
-              <input type="Text" placeholder="Alumno regular" />
-              <input type="date" />
+              <input
+                className="input"
+                type="Text"
+                placeholder="Alumno regular"
+              />
+              <input className="input" type="date" />
             </div>
           </div>
           <div className="buttons">

@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import "../Home.css";
+import { Link } from "react-router-dom";
 
 const Formularios = ({ children }) => {
   return (
@@ -28,19 +29,36 @@ const Formularios = ({ children }) => {
             <div className="formularioscuadro2">
               <div className="formsinputs">
                 <input
+                  className="input"
                   style={{ width: 590, height: 52 }}
                   type="Text"
                   placeholder="Pregunta"
                 />
 
                 <div>
-                  <input type="Text" placeholder="Respuesta 1" />
-                  <input type="Text" placeholder="Respuesta 2" />
+                  <input
+                    className="input"
+                    type="Text"
+                    placeholder="Respuesta 1"
+                  />
+                  <input
+                    className="input"
+                    type="Text"
+                    placeholder="Respuesta 2"
+                  />
                 </div>
 
                 <div>
-                  <input type="Text" placeholder="Respuesta 3" />
-                  <input type="Text" placeholder="Respuesta 4" />
+                  <input
+                    className="input"
+                    type="Text"
+                    placeholder="Respuesta 3"
+                  />
+                  <input
+                    className="input"
+                    type="Text"
+                    placeholder="Respuesta 4"
+                  />
                 </div>
               </div>
               <div className="buttonsforms">
@@ -104,6 +122,34 @@ const Formularios = ({ children }) => {
                 </button>
               </div>
             </div>
+          </div>
+
+          <div className="buttons">
+            <Link to="/preguntas">
+              <button className="btn" style={{ padding: "20px" }}>
+                <div style={{ margin: "6px 10px 0 0" }}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-zoom-question"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="white"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                    <path d="M10 13l0 .01" />
+                    <path d="M10 10a1.5 1.5 0 1 0 -1.14 -2.474" />
+                  </svg>
+                </div>
+                Preguntas
+              </button>
+            </Link>
           </div>
         </div>
       </div>

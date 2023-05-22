@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import "../Home.css";
+import User from "./user/User";
 const Home = ({ children }) => {
   return (
     <>
@@ -12,7 +13,10 @@ const Home = ({ children }) => {
         <div className="two">
           <Navbar />
         </div>
-        <div className="three">{children}</div>
+        <div className="three">
+          {children}
+          <User />
+        </div>
       </div>
     </>
   );

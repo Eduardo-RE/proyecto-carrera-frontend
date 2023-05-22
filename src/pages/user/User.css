@@ -1,0 +1,107 @@
+.buttonsContainer {
+  display: flex;
+  padding: 30px;
+}
+
+.usersButtons {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.usersButtons:hover {
+  background-color: #d9d9d9;
+}
+
+.usersContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.regularContainer {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.users {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.image {
+  background-color: #d9d9d9;
+  border-radius: 100%;
+  padding: 50px;
+}
+
+.nameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.email {
+  font-size: 14px;
+  color: #c7c8ca;
+}
+
+.regularButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  height: 15%;
+  margin-top: 60px;
+}
+
+.iconButton1 {
+  background-color: #00abfb;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconButton1:hover {
+  background-color: #066c9b;
+}
+
+.iconButton2 {
+  background-color: #ff9300;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconButton2:hover {
+  background-color: #a15f03;
+}
+
+.iconButton3 {
+  background-color: #ff2825;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.iconButton3:hover {
+  background-color: #860303;
+}

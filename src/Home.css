@@ -22,7 +22,7 @@
   grid-area: main;
 }
 
-input {
+.input {
   font-size: 24px;
   border: 1px solid #c7c8ca;
   height: 42px;

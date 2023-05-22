@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Registerforms from "./pages/Registerforms";
 import Reportes from "./pages/Reportes";
 import Formularios from "./pages/Formularios";
+import Preguntas from "./pages/preguntas/Preguntas";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/registerforms" element={<Registerforms />} />
         <Route path="/reportes" element={<Reportes />} />
         <Route path="/formularios" element={<Formularios />} />
+        <Route path="/preguntas" element={<Preguntas />} />
       </Routes>
     </>
   );
