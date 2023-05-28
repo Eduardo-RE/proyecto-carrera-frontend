@@ -23,9 +23,9 @@ const Register = () => {
           placeholder="Contraseña"
         />
         <div className="checkmark-container">
-          <input type="checkbox" />
-          <span class="checkmark"></span>
-          <label class="checkmark-label">
+          <input className="checkbox" type="checkbox" />
+          <span className="checkmark"></span>
+          <label className="checkmark-label">
             Doy mi consentimiento y acepto recibir información sobre los
             servicios y novedades.{" "}
             <a href="*" className="privacy-color">

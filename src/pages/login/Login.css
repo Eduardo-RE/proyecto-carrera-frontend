@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   margin: 22vh;
-
 }
 
 .login-title {
@@ -66,6 +65,7 @@
   display: flex;
   flex-direction: row;
   color: #ababab;
+  font-size: 15px;
 }
 
 .register-route {
@@ -79,4 +79,434 @@
 
 .register-route:hover {
   text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1660px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23vh;
+  }
+
+  .login-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 30px;
+  }
+
+  .login-input {
+    width: 689px;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #d7d4d4;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 0px 0px #d7d4d4;
+  }
+
+  .login-button {
+    width: 689px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #543bb2;
+    outline: none;
+    margin: 15px 0 20px 0;
+    box-shadow: 0px 3px 0px 0px #d7d4d4;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #3c2c76;
+    color: #fff;
+  }
+
+  .forgot-button {
+    color: #3c2c76;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .forgot-button:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #ababab;
+    width: 689px;
+  }
+
+  .register-route-container {
+    display: flex;
+    flex-direction: row;
+    color: #ababab;
+    font-size: 20px;
+  }
+
+  .register-route {
+    color: #3c2c76;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    text-indent: 5px;
+  }
+
+  .register-route:hover {
+    text-decoration: underline;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1280px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23vh;
+  }
+
+  .login-title {
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .login-input {
+    width: 589px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #d7d4d4;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 0px 0px #d7d4d4;
+  }
+
+  .login-button {
+    width: 589px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #543bb2;
+    outline: none;
+    margin: 15px 0 20px 0;
+    box-shadow: 0px 3px 0px 0px #d7d4d4;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #3c2c76;
+    color: #fff;
+  }
+
+  .forgot-button {
+    color: #3c2c76;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .forgot-button:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #ababab;
+    width: 589px;
+  }
+
+  .register-route-container {
+    display: flex;
+    flex-direction: row;
+    color: #ababab;
+    font-size: 15px;
+  }
+
+  .register-route {
+    color: #3c2c76;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+    cursor: pointer;
+    text-indent: 5px;
+  }
+
+  .register-route:hover {
+    text-decoration: underline;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 940px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23vh;
+  }
+
+  .login-title {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .login-input {
+    width: 489px;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #d7d4d4;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 0px 0px #d7d4d4;
+  }
+
+  .login-button {
+    width: 489px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #543bb2;
+    outline: none;
+    margin: 15px 0 20px 0;
+    box-shadow: 0px 3px 0px 0px #d7d4d4;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #3c2c76;
+    color: #fff;
+  }
+
+  .forgot-button {
+    color: #3c2c76;
+    border: none;
+    font-size: 12px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .forgot-button:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #ababab;
+    width: 489px;
+  }
+
+  .register-route-container {
+    display: flex;
+    flex-direction: row;
+    color: #ababab;
+    font-size: 12px;
+  }
+
+  .register-route {
+    color: #3c2c76;
+    border: none;
+    font-size: 12px;
+    background-color: transparent;
+    cursor: pointer;
+    text-indent: 5px;
+  }
+
+  .register-route:hover {
+    text-decoration: underline;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 720px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23vh;
+  }
+
+  .login-title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .login-input {
+    width: 409px;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #d7d4d4;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 0px 0px #d7d4d4;
+  }
+
+  .login-button {
+    width: 409px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #543bb2;
+    outline: none;
+    margin: 15px 0 20px 0;
+    box-shadow: 0px 3px 0px 0px #d7d4d4;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #3c2c76;
+    color: #fff;
+  }
+
+  .forgot-button {
+    color: #3c2c76;
+    border: none;
+    font-size: 9px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .forgot-button:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #ababab;
+    width: 409px;
+  }
+
+  .register-route-container {
+    display: flex;
+    flex-direction: row;
+    color: #ababab;
+    font-size: 9px;
+  }
+
+  .register-route {
+    color: #3c2c76;
+    border: none;
+    font-size: 9px;
+    background-color: transparent;
+    cursor: pointer;
+    text-indent: 5px;
+  }
+
+  .register-route:hover {
+    text-decoration: underline;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 560px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 23vh;
+  }
+
+  .login-title {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .login-input {
+    width: 309px;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 10px;
+    text-indent: 10px;
+    border: 1px solid #d7d4d4;
+    outline: none;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 0px 0px #d7d4d4;
+  }
+
+  .login-button {
+    width: 309px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #543bb2;
+    outline: none;
+    margin: 15px 0 20px 0;
+    box-shadow: 0px 3px 0px 0px #d7d4d4;
+    cursor: pointer;
+  }
+
+  .login-button:hover {
+    background-color: #3c2c76;
+    color: #fff;
+  }
+
+  .forgot-button {
+    color: #3c2c76;
+    border: none;
+    font-size: 7px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .forgot-button:hover {
+    text-decoration: underline;
+  }
+
+  .line {
+    margin: 40px 0px 20px 0px;
+    border-top: 1px solid #ababab;
+    width: 309px;
+  }
+
+  .register-route-container {
+    display: flex;
+    flex-direction: row;
+    color: #ababab;
+    font-size: 7px;
+  }
+
+  .register-route {
+    color: #3c2c76;
+    border: none;
+    font-size: 7px;
+    background-color: transparent;
+    cursor: pointer;
+    text-indent: 5px;
+  }
+
+  .register-route:hover {
+    text-decoration: underline;
+  }
 }
