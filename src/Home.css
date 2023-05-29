@@ -60,7 +60,7 @@ select {
   background-color: white;
   display: flex;
   justify-content: space-around;
-  height: 70%;
+  height: auto;
   border-radius: 5px;
 }
 .blockformularios {
@@ -69,7 +69,7 @@ select {
   background-color: white;
   display: grid;
   justify-content: space-around;
-  height: 70%;
+  height: auto;
   border-radius: 5px;
 }
 
@@ -171,4 +171,118 @@ select {
 
 .btnFormsRed:hover {
   background-color: #860303;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1280px) {
+  .block {
+    text-align: left;
+    margin: 25px 25px 55px 0px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  /* .blockformularios {
+    text-align: center;
+    margin: 25px 50px 55px 0px;
+    background-color: white;
+    display: grid;
+    justify-content: space-around;
+    height: auto;
+    border-radius: 5px;
+  } */
+
+  select {
+    font-size: 20px;
+    height: 62px;
+    width: 356px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }  
+
+  .input {
+    font-size: 20px;
+    border: 1px solid #c7c8ca;
+    height: 42px;
+    width: 284px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-right: 20px;
+    outline: none;
+    border-radius: 4px;
+  }
+
+  .btn {
+    background-color: #d9d9d9;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 228px;
+    height: 49px;
+    margin-right: 70px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  .btnFormsBlue {
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 81px;
+    background-color: #00abfb;
+    height: 78px;
+    margin-right: 80px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 940px) {
+  .block {
+    text-align: left;
+    margin: 25px 0px 55px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .input {
+    font-size: 16px;
+    border: 1px solid #c7c8ca;
+    height: 42px;
+    width: 204px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    outline: none;
+    border-radius: 4px;
+  }
+
+  .btn {
+    background-color: #d9d9d9;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 228px;
+    height: 49px;
+    margin-right: 70px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    font-size: 14px;
+    align-items: center;
+  }
 }

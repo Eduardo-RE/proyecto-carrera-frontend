@@ -127,3 +127,14 @@
     margin-top: 60px;
   }
 }
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 940px) {
+  .regularButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    height: 15%;
+    margin-top: 60px;
+  }
+}

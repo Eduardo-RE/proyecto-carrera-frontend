@@ -1,6 +1,5 @@
 .navbar-container {
   background-color: #4b3160;
-  height: 1920px;
   width: 219px;
   display: flex;
   flex-direction: column;
@@ -24,4 +23,14 @@
 
 .options {
   margin: 5px 10px 0px 10px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 940px) {
+  .navbar-container {
+    background-color: #4b3160;
+    width: 219px;
+    display: flex;
+    flex-direction: column;
+  }
 }
